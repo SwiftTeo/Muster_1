@@ -56,3 +56,17 @@ header a:hover {
 display: flex;
 justify-content: space-between;
 }
+
+#showcase {
+  min-height: 400px;
+  background: url('../img/showcase.jpg') no-repeat 0 -400px;
+  text-align: center;
+  color: white;
+}
+#showcase h2 {
+  margin: 100px 0 10px 0;
+  font-size: 55px;
+}
+#showcase p {
+  font-size: 20px;
+}
