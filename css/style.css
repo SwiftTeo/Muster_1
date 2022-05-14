@@ -9,13 +9,7 @@ body {
   margin: auto;
   overflow: hidden;
 }
-.button_1 {
-  height: 38px;
-  border: none;
-  padding: 0 20px 0 20px;
-  background: #e8491d;
-  color: white;
-}
+
 header {
   padding-top: 30px;
   min-height: 70px;
@@ -59,10 +53,7 @@ header a:hover {
   color: #ccc;
   font-weight: bold;
 }
-#boxes .container {
-display: flex;
-justify-content: space-between;
-}
+
 
 #showcase {
   min-height: 400px;
@@ -87,10 +78,32 @@ justify-content: space-between;
   justify-content: space-between;
 }
 #newsletter form {
-margin-top: 15px;
+  margin-top: 15px;
 }
 #newsletter input[type='email'] {
   padding: 4px;
   height: 25px;
   width: 250px;
+}
+.button_1 {
+  height: 38px;
+  border: none;
+  padding: 0 20px 0 20px;
+  background: #e8491d;
+  color: white;
+}
+
+#boxes {
+  margin-top: 20px;
+}
+#boxes .container {
+display: flex;
+justify-content: center;
+}
+#boxes .box {
+  padding: 30px;
+  text-align: center;
+}
+#boxes .box img {
+  width: 90px;
 }
